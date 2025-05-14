@@ -159,7 +159,8 @@
     <div class="main-container">
         <div class="lab-card">
             <div class="lab-header">Лабораторная работа №1</div>
-            <a href="users.php" class="lab-link">КЛИК</a>
+            <a href="MyProject/users.php" class="lab-link">КЛИК</a>
+            <a href="MyProject/uml.html" class="lab-link">Диаграмма</a>
         </div>
 
         <div class="lab-card">
