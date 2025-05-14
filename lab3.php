@@ -203,23 +203,23 @@
             <div class="pattern-section">
                 <h1>Одиночка (Singleton)</h1>
                 <ul class="pattern-list">
-                    <li><a href="lab3/settings_use.php" class="pattern-link">Демонстрация паттерна</a></li>
+                    <li><a href="lab3/patterns/singleton/settings_use.php" class="pattern-link">Демонстрация паттерна</a></li>
                 </ul>
             </div>
 
             <div class="pattern-section">
                 <h1>Фабричный метод (Factory Method)</h1>
                 <ul class="pattern-list">
-                    <li><a href="lab3/factory_use.php" class="pattern-link">Демонстрация паттерна</a></li>
-                    <li><a href="https://img.plantuml.biz/plantuml/svg/dPBDIiD04CVl-nHpA9WYmRi7AVW28dWEQxAMXNoKtOqVYD0KR_e0Ndo7MWocrVOPPj-eaq_IwgNcbFdDp7zcT_yZRRWoQHGoTWJuXcixmznExJFckBGPE3Z73vlPcPtItugoQ_k2Iy0LVkES4jcGyMjj5FSD-27N6YwJr0W5ZmpeEvvmfOKpF8L8tekWPah4WL0bl4ram9uOgplFap0Klf59t7PN1U1vVXBJZDGtph19K2ZZCRHI3ULAyOS6QgATz9KcqAh-8TeLNl2nq8UFtndKjJTL0n5n6LRCxTY4gkyIrLm936waqiQBUIHQGdexuF1boiFyMiP84uezHff6nEOVWyWrxwKHo0uvVk865-IJDHQOmmdW5mKBB2XTu0zkAYEzilenNFUiz-AillWzs7D4cQcjLVNtu-gOlPYDQC7Iqri0" class="pattern-link">Диаграмма Фабричного метода</a></li>
+                    <li><a href="lab3/patterns/factory-method/factory_use.php" class="pattern-link">Демонстрация паттерна</a></li>
+                    <li><a href="lab3/patterns/factory-method/factory-method.html" class="pattern-link">Диаграмма Фабричного метода</a></li>
                 </ul>
             </div>
 
             <div class="pattern-section">
                 <h1>Модель-Представление-Контроллер</h1>
                 <ul class="pattern-list">
-                    <li><a href="lab3/mvc/mvc_use.php" class="pattern-link">Демонстрация MVC</a></li>
-                    <li><a href="https://www.plantuml.com/plantuml/svg/dP11IyD048Nl-olcc63J7-2X5CI31pq8UYr3CfRWP1Pc9nIf_dStOYMp9fVEBU_bVNal-sIeDWuS85_Bc1Ay958u1_Yz1WG7Wbj8fhqSPxf6NjHfm9x_6pTmEBHHiZgsLZdenhCs1QAUCOvaJpbQrN-kDvyZhvlt4xPqlq8n_YwAQMGkViEOhPIZg8eVAwkAfXEjgbt6VUqHzRsB9tdjwGJdMLP9kXpjqF2INcxTYv6-OKimCHukJzV1Yl5Di_kHLZpNVdh7pzbkFtU-L0XxacuS-1i0" class="pattern-link">Диаграмма MVC</a></li>
+                    <li><a href="lab3/patterns/mvc/mvc_use.php" class="pattern-link">Демонстрация MVC</a></li>
+                    <li><a href="lab3/patterns/mvc/mvc-pattern.html" class="pattern-link">Диаграмма MVC</a></li>
                 </ul>
             </div>
 
