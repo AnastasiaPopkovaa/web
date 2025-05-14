@@ -1,26 +1,27 @@
 <?php
+declare(strict_types=1);
 namespace MyProject\Classes;
 
-require_once __DIR__ . '/AbstractUser.php';
+class User extends AbstractUser{ 
 
-class User extends AbstractUser {
-    public $name;
-    public $login;
-    protected $password;  // Изменили с private на protected
-    public static $count = 0;
+    public $name; 
+    public $login; 
+    public $password;
+    public static $userCount = 0;
+    
+    function showInfo(){
+         echo "<p><b>name:</b> {$this->name} <b>login:</b> {$this->login} <b>password:</b> {$this->password}</p>";
+        
+     }
 
-    public function __construct($name, $login, $password) {
-        $this->name = $name;
-        $this->login = $login;
-        $this->password = $password;
-        self::$count++;
+    function __construct($name, $login, $password){  //Конструктор
+      $this->name = $name;
+      $this->login = $login;
+      $this->password = $password;
+      self::$userCount++;
     }
-
-    public function showInfo() {
-        echo "Имя: {$this->name}, Логин: {$this->login}, Пароль: [скрыт]<br>";
-    }
-
-    public function __destruct() {
-        echo "<br>Пользователь {$this->login} удалён.";
+  
+    function __destruct(){  // Деструктор
+      echo "<p>Пользователь <b>{$this->login}</b> удален </p>";
     }
 }
